@@ -1,4 +1,31 @@
 /* SILIC 2.0 - Dashboard do Agente */
+
+/* RESET TOTAL - Deve estar no início do arquivo */
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+
+html, body {
+    width: 100vw !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+}
+
+/* Remover qualquer elemento flutuante no topo */
+body::before, html::before {
+    display: none !important;
+    content: none !important;
+}
+
+/* Garantir que o body ocupe tudo */
+body {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+}
 :root {
     --color-primary: #0066cc;
     --color-primary-dark: #004499;
@@ -33,23 +60,30 @@ body {
     line-height: 1.6;
 }
 
-/* Header */
-.header {
-    background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
-    color: white;
-    padding: 1rem 2rem;
-    box-shadow: var(--shadow-md);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+/* Header - VERSÃO DEFINITIVA */
+header {
+    background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark)) !important;
+    color: white !important;
+    padding: 1.5rem 0 !important;
+    margin: 0 !important;
+    width: 100vw !important;
+    position: relative !important;
+    left: 50% !important;
+    right: 50% !important;
+    margin-left: -50vw !important;
+    margin-right: -50vw !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+    z-index: 1000 !important;
 }
 
 .header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1400px;
-    margin: 0 auto;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    padding: 0 2rem !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    position: relative !important;
 }
 
 .logo-section {
@@ -137,10 +171,24 @@ body {
 
 /* Main Content */
 .main-content {
-    max-width: 1600px; /* Aumentado para melhor aproveitamento */
     margin: 0 auto;
     padding: 2rem;
     width: 100%;
+    max-width: 1200px; /* centralizar o conteúdo */
+}
+/* Header - Full Width Fix */
+header {
+    background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark)) !important;
+    color: white !important;
+    padding: 1.5rem 0 !important;
+    margin: 0 !important;
+    width: 100vw !important;
+    position: relative !important;
+    left: 50% !important;
+    right: 50% !important;
+    margin-left: -50vw !important;
+    margin-right: -50vw !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
 }
 
 /* Dashboard Layout - Melhorar distribuição */
@@ -149,6 +197,8 @@ body {
     grid-template-columns: 1fr;
     gap: 2rem;
     width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; /* centralizar */
 }
 
 /* Layout alternativo para telas grandes */
