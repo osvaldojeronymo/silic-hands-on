@@ -60,30 +60,47 @@ body {
     line-height: 1.6;
 }
 
-/* Header - VERSÃO DEFINITIVA */
-header {
-    background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark)) !important;
-    color: white !important;
-    padding: 1.5rem 0 !important;
-    margin: 0 !important;
-    width: 100vw !important;
-    position: relative !important;
-    left: 50% !important;
-    right: 50% !important;
-    margin-left: -50vw !important;
-    margin-right: -50vw !important;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
-    z-index: 1000 !important;
+/* Header System - Baseado no show-request-service */
+.header {
+    background-color: #003366;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .header-content {
-    max-width: 1200px !important;
-    margin: 0 auto !important;
-    padding: 0 2rem !important;
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: center !important;
-    position: relative !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 80px;
+    gap: 20px;
+    padding: 0 24px;
+}
+
+.title-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex: 1;
+}
+
+.title-section h1 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.subtitle {
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+    opacity: 0.9;
+    line-height: 1.2;
 }
 
 .logo-section {
