@@ -53,7 +53,7 @@ silic-hands-on/
 
 ## 🎯 **Perfil do Usuário**
 
-### **Agente Senior - João Silva**
+### **Assistente Sênior - João Silva**
 - Processamento de demandas prioritárias
 - Análise e aprovação de solicitações
 - Comunicação com demandantes
