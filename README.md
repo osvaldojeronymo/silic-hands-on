@@ -1,10 +1,10 @@
-# SILIC 2.0 - Módulo Hands-on (Dashboard do Agente)
+# SILIC 2.0 - Dashboard Técnico
 
-🎯 **Sistema para processamento de demandas imobiliárias pelos agentes da CAIXA**
+🎯 **Sistema para processamento de demandas imobiliárias pelos assistentes sênior da CAIXA**
 
 ## 🚀 **Visão Geral**
 
-O módulo Hands-on é a interface dedicada aos **Agentes** responsáveis por processar e gerenciar as demandas de:
+O Dashboard Técnico é a interface dedicada aos **Assistentes Sênior** responsáveis por processar e gerenciar as demandas de:
 - 🏢 **Locação de imóveis**
 - 🤝 **Cessão de espaços** 
 - 🔄 **Comodato de propriedades**
