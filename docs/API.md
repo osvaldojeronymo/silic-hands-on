@@ -1,4 +1,4 @@
-# Documentação da API - SILIC Hands-on Dashboard
+# Documentação da API - SILIC Dashboard Técnico
 
 ## 📡 Endpoints Futuros
 

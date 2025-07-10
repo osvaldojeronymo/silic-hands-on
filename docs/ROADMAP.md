@@ -1,4 +1,4 @@
-# 🗺️ Roadmap - SILIC Hands-on Dashboard
+# 🗺️ Roadmap - SILIC Dashboard Técnico
 
 ## 📅 Versão Atual - 1.0.0 (Frontend Only)
 

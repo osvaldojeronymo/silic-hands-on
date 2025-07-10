@@ -1,4 +1,4 @@
-# Guia de Configuração - SILIC Hands-on Dashboard
+# Guia de Configuração - SILIC Dashboard Técnico
 
 ## 📋 Pré-requisitos
 
