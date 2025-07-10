@@ -1,0 +1,38 @@
+{
+  "name": "silic-hands-on",
+  "version": "1.0.0",
+  "description": "🎯 SILIC 2.0 - Dashboard Hands-on para Agentes Operacionais da CAIXA",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "dev": "npx live-server . --port=3001",
+    "build": "echo 'Build process for production'",
+    "deploy": "./deploy.sh",
+    "test": "echo 'No tests specified yet'"
+  },
+  "keywords": [
+    "silic",
+    "caixa",
+    "dashboard",
+    "hands-on",
+    "frontend",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Osvaldo Jeronymo",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/osvaldojeronymo/silic-hands-on.git"
+  },
+  "homepage": "https://osvaldojeronymo.github.io/silic-hands-on/",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "demandas": [
+    {
+      "id": 1,
+      "titulo": "Análise de Documentação - Imóvel 12345",
+      "descricao": "Verificação de documentos para aprovação de financiamento",
+      "status": "pendente",
+      "prioridade": "alta",
+      "tipo": "documentacao",
+      "agente_responsavel": "João Silva",
+      "data_criacao": "2024-07-10T08:00:00Z",
+      "data_vencimento": "2024-07-15T18:00:00Z",
+      "cliente": {
+        "nome": "Maria Santos",
+        "cpf": "123.456.789-00",
+        "contato": "(11) 99999-9999"
+      },
+      "imovel": {
+        "codigo": "IMV-12345",
+        "endereco": "Rua das Flores, 123",
+        "cidade": "São Paulo",
+        "estado": "SP"
+      }
+    }
+  ],
+  "estatisticas": {
+    "total_demandas": 156,
+    "pendentes": 45,
+    "em_andamento": 67,
+    "concluidas": 44,
+    "atrasadas": 12
+  }
+}
